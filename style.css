@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    font-family: 'Mulish', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+#exam{
+    width: 60rem;
+    background-color: burlywood;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0.2rem lightgrey;
+    overflow: hidden;
+    margin: 0 1rem;
+}
+
+#question-section{
+    padding: 1.5rem;
+}
+
+h1{
+    text-align: center;
+    padding: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 2rem;
+    margin: 1rem;
+    background-color: beige;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: limegreen;
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 2rem;
+    color: white;
+    font-size:2rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: inherit;
+    transition: ease-in-out .5s;
+}
+
+button:hover{
+    background-color: greenyellow;
+}
+button:focus{
+    background-color: lightgray;
+    outline: none;
+}
+
+h2.point{
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media(max-width:768px) {
+    
+}

@@ -1,0 +1,20 @@
+{
+    "questions":[
+        {
+            "ques" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fuga! - A",
+            "resA" : "Lorem",
+            "resB" : "ipsum",
+            "resC" : "dolor",
+            "resD" : "dolametor",
+            "trueres" : "resA"
+        },
+        {
+            "ques" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, fuga! - B",
+            "resA" : "Lorem",
+            "resB" : "ipsum",
+            "resC" : "dolor",
+            "resD" : "dolametor",
+            "trueres" : "resB"
+        }
+    ]
+}
